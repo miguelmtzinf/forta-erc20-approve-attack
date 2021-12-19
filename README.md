@@ -20,7 +20,7 @@ The agent allows to configure two parameters used to identify suspicious behavio
 - MINIMUM_NUMBER_OF_APPROVALS: It is the minimum number of token transfer approvals to EOA addresses in order to consider a behavior as suspicious (10 by default).
 - OBSERVATION_PERIOD_DURATION: It is the period duration (in blocks) of observation of token transfer approvals (6000 blocks by default, which is around 1 day).
 
-Therefore, the agent will trigger an alert if it detects more than `MINIMUM_NUMBER_OF_APPROVALS` during the period of time given by `OBSERVATION_PERIOD_DURATION`. You can find the configuration file of these parameters [here](src/config.ts),
+Therefore, the agent will trigger an alert if it detects more than `MINIMUM_NUMBER_OF_APPROVALS` during the period of time given by `OBSERVATION_PERIOD_DURATION`. You can find the configuration file of these parameters [here](src/config.ts).
 
 ## Supported Chains
 
